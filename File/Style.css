@@ -1,0 +1,36 @@
+/*Base Configuration*/
+*{
+    margin: 0%;
+}
+
+/*Header*/
+.header{
+    width: 100%;
+    display: flex;
+}
+
+.logoHeader{
+    height: 90px;
+}
+
+.tittleHeader{
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.iconsHeader{
+    height: 45px;
+}
+
+/*Divisions*/
+.division{
+    height: 5px;
+    background-color: rgb(255, 0, 204);
+}
