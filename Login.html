@@ -10,20 +10,20 @@
                 <img src="Img/LogoFooter.png" class="logoLogin">
             </div>
             <h1 class="textLogin">Inicio de sesión</h1>
-            <form method="post" class="configForm">
+            <form method="post" class="configForm" id="form">
                     <div class="configUsername">
                         <p>Nombre del usuario</p>
                         <br>
-                        <input type="text" required class="configInput">
+                        <input type="text" required class="configInput" id="name">
                     </div>
                     <div class="configUsername">
                         <p>Contraseña</p>
                         <br>
-                        <input type="password" required class="configInput">
+                        <input type="password" required class="configInput" id="password">
                     </div>
                     <div class="recordar">¿Olvido su contraseña?</div>
                     <div class="imgContent">
-                        <input type="submit" value="Ingresar" class="decorationButton">
+                        <button type="submit" class="decorationButton" id="button">Ingresar</button>
                     </div>
                     <div class="registrarse">
                         <p>Crear cuenta</p>
@@ -31,5 +31,6 @@
             </form>
         </div>
     </div>
+    <script src="File/Scrypt.js"></script>
 </body>
 </html>

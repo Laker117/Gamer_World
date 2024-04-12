@@ -175,3 +175,11 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+.warning{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color:chartreuse;
+    padding-top: 20px;
+}
