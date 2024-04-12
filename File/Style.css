@@ -97,7 +97,7 @@
     background-size: cover;
 }
 
-.formulario{
+.formularioLogin{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -131,7 +131,7 @@
     box-sizing: border-box;
 }
 
-.configUsername{
+.configUsernameLogin{
     text-align: center;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
@@ -157,6 +157,7 @@
 .decorationButton{
     width: 100px;
     height: 50px;
+    margin: 0 40 0 40;
     border: 1px solid;
     background: #f10aca;
     border-radius: 25px;
@@ -167,19 +168,60 @@
     justify-content: center;
 }
 
+.returnLogin{
+    text-align: center;
+    background-color: #f10aca;
+    border-radius: 600px;
+    padding: 14;
+    border-color: #ffffff;
+    border-style:groove;
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .registrarse{
     margin: 30px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(72, 0, 255);
     font-weight: bolder;
     cursor: pointer;
 }
 
-.warning{
-    width: 200px;
+/*CreateAccount*/
+.configCreateAccount{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../Img/LoginCreateAccount.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.formularioCreateAccount{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgba(37, 41, 38, 0.7);
+    border-radius: 10px;
+}
+
+.configUsernameCreateAccount{
     text-align: center;
-    margin: auto;
-    color:chartreuse;
-    padding-top: 20px;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    font-size: 25px;
+    font-style: oblique;
+    color: #ffffff;
+}
+
+.textCreateAccount{
+    text-align: center;
+    padding: 0 0 20 0;
+    border-bottom: 1px solid silver;
+    color: #ffffff;
 }

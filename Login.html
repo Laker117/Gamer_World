@@ -4,30 +4,39 @@
     <link rel="stylesheet" href="File/Style.css">
 </head>
 <body>
+    
     <div class="configLogin">
-        <div class="formulario">
+        
+        <div class="formularioLogin">
+           
             <div class="imgContent">
                 <img src="Img/LogoFooter.png" class="logoLogin">
             </div>
             <h1 class="textLogin">Inicio de sesión</h1>
             <form method="post" class="configForm" id="form">
-                    <div class="configUsername">
+                    <div class="configUsernameLogin">
                         <p>Nombre del usuario</p>
                         <br>
-                        <input type="text" required class="configInput" id="name">
+                        <input type="text" required class="configInput" id="nameLogin">
                     </div>
-                    <div class="configUsername">
+                    <div class="configUsernameLogin">
                         <p>Contraseña</p>
                         <br>
-                        <input type="password" required class="configInput" id="password">
+                        <input type="password" required class="configInput" id="passwordLogin">
                     </div>
                     <div class="recordar">¿Olvido su contraseña?</div>
                     <div class="imgContent">
-                        <button type="submit" class="decorationButton" id="button">Ingresar</button>
+                        
+                        <a href="Index.html"><button type="submit" class="decorationButton" id="butonLogin">Ingresar</button></a>
+                        
                     </div>
                     <div class="registrarse">
-                        <p>Crear cuenta</p>
+                        <a href="CreateAccount.html" target="_blank">Crear cuenta</a>
+                        <br>
+                        <br>
+                        <a href="Index.html" class="returnLogin">X</a>
                     </div>
+                    
             </form>
         </div>
     </div>
