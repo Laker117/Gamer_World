@@ -225,3 +225,40 @@
     border-bottom: 1px solid silver;
     color: #ffffff;
 }
+
+/*Index*/
+
+.indexBackground{
+    background:linear-gradient(150deg, #ff008c, #000000)
+}
+
+.textCarousel{
+    color: #ffffff;
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicators-item{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #0af1f1;
+}
