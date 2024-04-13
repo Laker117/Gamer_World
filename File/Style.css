@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.menuText{
+.menuTextIndex{
     margin: 0 60 0 60;
     text-decoration: underline;
     font-size: 35px;
@@ -229,7 +229,7 @@
 /*Index*/
 
 .indexBackground{
-    background:linear-gradient(150deg, #ff008c, #000000)
+    background:linear-gradient(150deg, #000000, #ff00e1)
 }
 
 .textCarousel{
@@ -261,4 +261,46 @@
     transform: rotate(45deg);
     margin: 0 15px;
     background: #0af1f1;
+}
+
+/*Videojuegos*/
+
+.videojuegosBackground{
+    background:linear-gradient(150deg, #000000, #ff0000)
+}
+
+.menuTextVideojuegos{
+    margin: 0 60 0 60;
+    text-decoration: underline;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+/*Anime*/
+
+.animeBackground{
+    background:linear-gradient(150deg, #000000, #2200ff)
+}
+
+.menuTextAnime{
+    margin: 0 60 0 60;
+    text-decoration: underline;
+    font-size: 35px;
+    color: rgb(34, 0, 255);
+    cursor: pointer;
+}
+
+/*Manga*/
+
+.mangaBackground{
+    background:linear-gradient(150deg, #000000, #8800ff)
+}
+
+.menuTextManga{
+    margin: 0 60 0 60;
+    text-decoration: underline;
+    font-size: 35px;
+    color: rgb(119, 0, 255);
+    cursor: pointer;
 }
